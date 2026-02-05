@@ -44,7 +44,7 @@ echo "sudouser ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 # Clone naza repo
 su - sudouser -c "
     mkdir -p ~/naza && cd ~/naza
-    git clone https://github.com/ornab74/naza.git . || git pull
+    git clone https://github.com/ornab74/afc.git . || git pull
     python3 -m venv venv
     source venv/bin/activate
     pip install --upgrade pip
@@ -66,8 +66,8 @@ if [ -z "$NAZA_STARTED" ] && [ "$PWD" = "$HOME" ] && [ -z "$SSH_CLIENT" ] && [ -
 
     echo ""
     echo "╔══════════════════════════════════════════════════════════╗"
-    echo "║          Starting SecureLLM TUI (naza/main.py)           ║"
-    echo "║        Ubuntu proot → /home/sudouser/naza                ║"
+    echo "║          Starting AFC TUI (naza/main.py)           ║"
+    echo "║        Ubuntu proot → /home/sudouser/afc                ║"
     echo "╚══════════════════════════════════════════════════════════╝"
     echo "   Type 'exit' twice to return to Termux"
     echo ""

@@ -1,0 +1,130 @@
+# Python / Virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+*.env
+.venv*
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg
+MANIFEST
+
+# Installer logs
+pip-selfcheck.json
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff (if you ever add any)
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff (if relevant)
+instance/
+.webassets-cache
+
+# Scrapy stuff
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.env.*
+!.env.example
+
+# -------------------------------
+# Termux / proot-distro specific
+# -------------------------------
+/tmp/
+*~
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# proot-distro related temporary / cached files
+$HOME/tmp/
+$HOME/proot-distro/
+*.aes
+*.aes.tmp
+chat_history.db
+chat_history.db.aes
+.enc_key
+models/
+*.gguf
+*.gguf.aes
+*.gguf.tmp
+
+# Logs & debug files from your app
+*.log
+debug.log
+error.log
+naza.log
+afc.log
+scanner.log
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Keep these (examples - do NOT ignore real config if needed)
+!requirements.txt
+!.gitignore
+!README.md
+!main.py

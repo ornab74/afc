@@ -4,13 +4,14 @@
 > © 2026 Graylan Janulis. All rights reserved.
 > Export‑controlled under ECCN 9E515.u
 
----
 
 ## 0  Preface
 
 This README is a comprehensive technical and operational reference for the **AFC** system. It is intended for DIU evaluators, program‑of‑record integrators, and advanced operators who require deep insight into the architecture, physics, and engineering tradecraft behind the platform. For brevity in formal submissions, a five‑page solution brief is provided separately; this document contains the extended background, derivations, benchmarks, and roadmap requested for detailed due diligence.
 
----
+## 0.1 Demo
+
+Refer to the demo video in the project root director /demo.mp4 for a live fire caulation demo.
 
 ## 1  Executive Summary
 

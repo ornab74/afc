@@ -11,7 +11,7 @@ This README is a comprehensive technical and operational reference for the **AFC
 
 ## 0.1 Demo
 
-Refer to the demo video in the project root director /demo.mp4 for a live fire caulation demo.
+Refer to the demo video in the project root directory /screen-20260213-074358.mp4 for a the fire accuracy caulation demo.
 
 ## 1  Executive Summary
 

@@ -2,7 +2,6 @@
 
 > **Version 1.1 – February 2026**
 > © 2026 Graylan Janulis. All rights reserved.
-> Export‑controlled under ECCN 9E515.u
 
 
 ## 0  Preface
